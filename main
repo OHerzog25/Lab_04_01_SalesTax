@@ -1,0 +1,17 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        double SALES_TAX = 0.05;
+        double itemPrice = 45.50;
+        double tax = 0;
+        double finalPrice = 0;
+
+        tax = itemPrice * SALES_TAX;
+
+        finalPrice = tax + itemPrice;
+
+        System.out.println("The final price of an item costing $" + itemPrice +
+                " with a sales tax of " + SALES_TAX + " is $" + finalPrice);
+    }
+}
